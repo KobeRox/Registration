@@ -1,0 +1,89 @@
+html {
+    margin: auto;
+    
+}
+@Page{
+  margin: 40pt;
+}
+
+body{
+    display: table-cell;
+    vertical-align:left;
+    padding: 20pt;
+
+}
+
+ul{
+  background-image: url(https://www.planwallpaper.com/static/images/Desktop-HD-Wallpaper-Free-Download-1.jpg);
+}
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #797953;
+  width: 100%;
+  top: 0;
+  max-width:1500px;
+  position: fixed;
+}
+.nav li{
+  float: left;
+}
+li a {
+  display: block;
+  color:  #00ffff;
+  padding: 16px 35px;
+  text-align: center;
+  text-decoration: none;
+}
+li a:hover{
+  background-color: black;
+  color: #1aff1a;
+}
+
+ul.info{
+
+  margin: 80px 0px 40px 40px ;
+
+  float: left;
+
+}
+
+.info li{
+  font-size: 30px;
+  margin: 20px;
+  padding: 20px;
+
+}
+.intro{
+  text-align: center;
+}
+
+#home{
+  color: #000000;
+  width: 800px
+}
+
+#pic1{
+  margin-left:  80px;
+  margin-top: 80px;
+  margin-right: 0px;
+  width: 300px;
+  height: 450px;
+  float: right;
+  border-radius:50%;
+}
+.questions{
+  text-align: left;
+  font-weight: bold;
+  color: darkgreen;
+  font-size: 20pt;
+}
+
+.answers{
+  font-style: italic;
+  font: arial;
+  color:darkgrey;
+  font-size: 16pt;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>web project</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script type="text/javascript" src="index.js"></script>
+  </head>
+  <body>
+    <ul class='nav'>
+      <!--all the questions   -->
+        <li >
+            <a href="index.php">HOME</a>
+        </li>
+        <li>
+            <a href="#q1">Question1</a>
+        </li>
+        <li>
+            <a href="#q2">Question2</a>
+        </li>
+        <li>
+            <a href="#q3">Question3</a>
+        </li>
+        <li>
+            <a href="#q4">Question4</a>
+        </li>
+        <li>
+            <a href="#q5">Question5</a>
+        </li>
+        <li>
+            <a href="#q6">Question6</a>
+        </li>
+        <li>
+            <a href="#q7">Question7</a>
+        </li>
+    </ul>
+<!-- set the background img , color  -->
+    <ul class="info" id = "home" background="https://www.planwallpaper.com/static/images/Desktop-HD-Wallpaper-Free-Download-1.jpg">
+      <li >Name :  <div class="intro" id="myname" style="color:#ffff00"></div></li>
+      <li >Student ID: <div class="intro" id="studentID" style="color:#ffff00"></div></li>
+      <li>Intrest:  <div class="intro" id="intrust" style="color:#ffff00">basketball</div></li>
+    </ul>
+    <!-- using the javascript to give the author name and id and intrust  -->
+    <script>
+    var name = "Kobe";
+    var id = "i169178";
+    var intrust = "Basketball";
+    document.getElementById("myname").innerHTML = name;
+    document.getElementById("studentID").innerHTML = id;
+    document.getElementById("intrust").innerHTML = instrust;
+    </script>
+
+    <img src="https://cdn-static.sidereel.com/tv_shows/11263/giant_2x/72454-9.jpg" alt="picture one" id="pic1">
+
+<!-- these are all the answers for questions  -->
+    <h3 div class="questions" id="q1" >Question 1: Mark-up Languages </h3>
+    <p class="answers">Answer: It is a extended version of HTML , origin language is HTML, makes easiler to display:
+    we can write everything inside css or we can write those inside those tags. </p>
+    <h3 div class="questions" id="q2" >Question 2: What is Bootstrap, give an example of using Bootstrap in your webpage </h3>
+    <p class="answers">Answer: bascially a frame that help build the website,
+      #pic1{
+      width: 300px;
+      height: 450px;
+      border-radius:50%;
+    }
+   </p>
+    <h3 div class="questions" id="q3" >Question 3: Search Engine Optimizations </h3>
+    <p class="answers">Answer:  SEO is a marketing discipline focused on growing visibility in organic (non-paid) search engine results.
+      <br>1.Keywords 2. Image tags 3. Meta description 4. Backlinks
+    <br>The majority of web traffic is driven by the major commercial search engines
+    <br>I used some tags such as img tag
+  </p>
+    <h3 div class="questions" id="q4" >Question 4: Design Principles </h3>
+    <p class="answers">Answer: 1. good looking 2. understandable structure 3. clear content 4. color differences 5.easy to control 6. menu bar to guid
+    i used a menu guid bar to guid viewers to the question they wat to see, i mad the content clear and easy to see, distinguish the question and answer  </p>
+    <h3 div class="questions" id="q5" >Question 5: Client-side vs. Server-side Processing </h3>
+    <p class="answers">Answer: client side is running on web browser the server side is running on web server client takes place on the end users computers , on server side
+      a user's request is fulfilled by running a script directly on the web server to generate dynamic HTML pages </p>
+    <h3 div class="questions" id="q6" >Question 6: server-side programming languages </h3>
+    <p class="answers">Answer: 1. java 2. python 3. c 4. ruby. 5.javascript 6. c# 7. PHP 8. objective c 9. SQL 10.c  </p>
+    <h3 div class="questions" id="q7" >Question 7: Social network websites </h3>
+    <p class="answers">Answer: facebook , they are using c#  </p>
+
+
+
+
+
+
+
+  </body>
+</html>
